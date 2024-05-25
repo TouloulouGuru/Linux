@@ -1,0 +1,29 @@
+Tab #命令补全与文件补齐
+  [root@localhost ~]# ls[tab]
+  ls        lsblk     lshw      lsipc     lslogins  lsmod     lspci     
+  lsattr    lscpu     lsinitrd  lslocks   lsmem     lsns      lsscsi    
+
+  [root@localhost ~]# ls -al ~/.bash[tab][tab]  ##显示该目录下所有以.bash开头的文件名
+  .bash_history  .bash_logout   .bash_profile  .bashrc  
+
+[tab]接在一串命令的第一个字段后面为[命令补全]
+[tab]接在串命令的第二个字段后面为[文件补全]
+
+[ctrl] + [c] #中断目前程序
+[ctrl] + [d] #键盘输入结束也可取代exit
+[shift] + {[Page UP][Page Down]} #翻页
+
+help #求助说明
+  [root@localhost ~]# ls --help
+
+man page #操作说明
+  [root@localhost ~]# man ls
+#空格往下翻页
+#[q]离开
+
+sync #将数据同步写入硬盘
+shutdown #关机
+reboot #重启
+#建议执行reboot shutdown命令前先执行一下sync命令
+
+
